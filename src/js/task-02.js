@@ -6,7 +6,8 @@ const ingredients = [
   "Herbs",
   "Condiments",
 ];
-console.log(ingredients);
+// console.log(ingredients);
+
 const ingredientsItemEl = document.createElement("li");
 ingredientsItemEl.classList.add("item");
 ingredientsItemEl.textContent = "Potatoes";
