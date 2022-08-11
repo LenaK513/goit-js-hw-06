@@ -48,6 +48,5 @@ newIngredientsList.append(
   ingredientsItemElFifth,
   ingredientsItemElSixth
 );
-s;
 
 // console.log(newIngredientsList);
