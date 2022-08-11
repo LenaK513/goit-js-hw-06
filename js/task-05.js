@@ -1,7 +1,8 @@
 const input = document.querySelector("#name-input");
-      const span = document.querySelector("#name-output");
+const span = document.querySelector("#name-output");
 
-      input.addEventListener("input", onInputChangeText);
+input.addEventListener("input", onInputChangeText);
 
-      function onInputChangeText(event) {
-        span.textContent = event.currentTarget.value;
+function onInputChangeText(event) {
+  span.textContent = event.currentTarget.value;
+}
