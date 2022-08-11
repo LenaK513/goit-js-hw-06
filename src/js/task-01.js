@@ -7,3 +7,4 @@ quantityOfEl.forEach((element) => {
   console.log(`Category:`, elTitle.innerHTML);
   console.log(`Elements:`, elLenght.length);
 });
+console.log(elTitle);
