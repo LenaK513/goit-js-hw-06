@@ -21,4 +21,4 @@ const listOfElements = images.map((image) => {
   );
 });
 
-console.log(gallery);
+// console.log(gallery);
