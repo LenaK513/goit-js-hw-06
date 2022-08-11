@@ -7,6 +7,31 @@
     <title>Task 3</title>
     <link rel="stylesheet" href="css/common.css" />
   </head>
+  <style>
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    li {
+      height: 200px;
+      width: 340px;
+    }
+
+    li:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    li > img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  </style>
   <body>
     <p><a href="/src/index.html">Go back</a></p>
 
